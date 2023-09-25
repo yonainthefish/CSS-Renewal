@@ -1,178 +1,94 @@
-AOS.init();
+// 초기화 함수
+function initialize() {
+  // 메뉴 드롭
+  const openbtn = document.querySelector(".icon");
+  const closebtn = document.querySelector(".close");
+  const sidemenu = document.querySelector(".side_menu");
 
-// 메뉴 드롭
-const openbtn=document.querySelector(".icon");
-const closebtn=document.querySelector(".close");
-const sidemenu=document.querySelector(".side_menu");
-console.log(openbtn,closebtn,side_menu);
+  openbtn.addEventListener("click", () => {
+    sidemenu.style.width = "500px";
+  });
 
+  closebtn.addEventListener("click", () => {
+    sidemenu.style.width = "0px";
+  });
 
-openbtn.addEventListener("click",e=>{
-    sidemenu.style.width="500px";
-})
+  // 메뉴 드롭 아코디언
+  const accordionItems = document.getElementsByClassName("accordion");
 
-closebtn.addEventListener("click",e=>{
-    sidemenu.style.width="0px";
-})
+  for (let i = 0; i < accordionItems.length; i++) {
+    accordionItems[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+      const panel = this.nextElementSibling;
+      panel.style.maxHeight = panel.style.maxHeight ? null : panel.scrollHeight + "px";
+    });
+  }
 
-// 메뉴 드롭 아코디언
-var acc = document.getElementsByClassName("accordion");
-    var i;
- 
-    for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
-            } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
-            }
-        });
-        
-        
-    }
-
-
-
-
-
-
-
-//  <----제품 탭 기능
-
-const menulist=document.querySelectorAll(".menu li");
-const collect_list=document.querySelectorAll(".wrap1 .swiper");
-// const collect_list=document.querySelectorAll(".content1 .swiper-wrapper");
-console.log(menulist, collect_list);
-
-for(let i=0;i<menulist.length;i++){
-    menulist[i].addEventListener("click",e=>{
-       e.preventDefault();
-       console.log(i);
-       for(let j=0;j<menulist.length;j++){
-        collect_list[j].style.display="none"
-        menulist[j].classList.remove('is_on');
-       }
-       collect_list[i].style.display="block";
-       menulist[i].classList.add('is_on');
-
-      // // 버튼 클릭시 컨텐츠 전환
-      // activeCont = this.getAttribute('href');
-      // document.querySelector(activeCont).style.display = 'block';
-    })
+  // 제품 탭 기능
+  initializeProductTabs();
 }
 
-const jmenulist=document.querySelectorAll(".j_menu li");
-const jcollect_list=document.querySelectorAll(".wrap2 .swiper");
-console.log(jmenulist, jcollect_list);
+// 제품 탭 초기화 함수
+function initializeProductTabs() {
+  const menulist = document.querySelectorAll(".menu li");
+  const collect_list = document.querySelectorAll(".wrap1 .swiper");
 
-for(let i=0;i<jmenulist.length;i++){
-  jmenulist[i].addEventListener("click",e=>{
-       e.preventDefault();
-       console.log(i);
-       for(let j=0;j<jmenulist.length;j++){
-        jcollect_list[j].style.display="none"
-        jmenulist[j].classList.remove('is_on');
-       }
-       jcollect_list[i].style.display="block";
-       jmenulist[i].classList.add('is_on');
-    })
+  menulist.forEach((menuItem, i) => {
+    menuItem.addEventListener("click", (e) => {
+      e.preventDefault();
+      for (let j = 0; j < menulist.length; j++) {
+        collect_list[j].style.display = "none";
+        menulist[j].classList.remove("is_on");
+      }
+      collect_list[i].style.display = "block";
+      menulist[i].classList.add("is_on");
+    });
+  });
+
+  const jmenulist = document.querySelectorAll(".j_menu li");
+  const jcollect_list = document.querySelectorAll(".wrap2 .swiper");
+
+  jmenulist.forEach((menuItem, i) => {
+    menuItem.addEventListener("click", (e) => {
+      e.preventDefault();
+      for (let j = 0; j < jmenulist.length; j++) {
+        jcollect_list[j].style.display = "none";
+        jmenulist[j].classList.remove("is_on");
+      }
+      jcollect_list[i].style.display = "block";
+      jmenulist[i].classList.add("is_on");
+    });
+  });
 }
 
-
-
-// <--- 제품 부분 슬라이드 부분
-var swiper = new Swiper(".content1", {
-    slidesPerView: 6,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    
+// 슬라이드 초기화 함수
+function initializeSlides() {
+  const slideContents = document.querySelectorAll(".content1, .content2, .content3, .content4, .content5, .content6");
+  slideContents.forEach((slideContent) => {
+    const swiper = new Swiper(slideContent, {
+      slidesPerView: 6,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
   });
-var swiper = new Swiper(".content2", {
-    slidesPerView: 6,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-var swiper = new Swiper(".content3", {
-    slidesPerView: 6,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-var swiper = new Swiper(".content4", {
-    slidesPerView: 6,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-var swiper = new Swiper(".content5", {
-    slidesPerView: 6,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
-var swiper = new Swiper(".content6", {
-    slidesPerView: 6,
-    spaceBetween: 30,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
+}
 
+// 화면 사이즈 변경 시 슬라이드 적용 함수
+function applySlidesOnResize() {
+  const windowWidth = window.innerWidth;
+  if (windowWidth < 768) {
+    // Apply slides for smaller screens
+    initializeSlides();
+  }
+}
 
-  });
+// 초기화 함수 호출
+initialize();
+initializeSlides();
+applySlidesOnResize();
 
- 
-
-
-  
-// <---- 마지막 서비스 부분 슬라이드
-// $(function(){
-//   var swiper1=undefined;
-//   var swiperOption = {
-//       slidesPerView: "auto",
-//       centeredSlides: true,
-//       spaceBetween: 30,
-//       pagination: {
-//         el: ".swiper-pagination",
-//         clickable: true,
-//       },
-//     };
- 
-//     function slideMake() {
-                     
-//       var winWidth = $(window).width();
-//       console.log(winWidth);
-
-//       if (winWidth >= 768 && swiper1 !== undefined) {
-//           swiper1.destroy();
-//           swiper1 = undefined;
-//       }
-//       else if (winWidth < 768 && swiper1 == undefined) {
-//           swiper1 = new Swiper(".mySwiper5", swiperOption);
-//       }
-//   }
-// 화면너비가 768이상일때만 호출
-  slideMake();
-
-  $(window).resize(function () {
-      slideMake();
-  });
-
-})
-
-
-
+// 화면 사이즈 변경 이벤트 리스너 등록
+window.addEventListener("resize", applySlidesOnResize);
