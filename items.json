@@ -4,91 +4,91 @@
     "item": "watch",
     "price": "₩2,000,000",
     "gender": "all",
-    "img":"./img/watch_1.png"
+    "img":"/img/watch_1.png"
   },
   {
     "name": "산토스 드 까르띠에",
     "item": "watch",
     "price": "₩7,000,000",
     "gender": "all",
-    "img":"./img/watch_2.png"
+    "img":"/img/watch_2.png"
   },
   {
     "name": "베누아",
     "item": "watch",
     "price": "₩1,000,000",
     "gender": "all",
-    "img":"./img/watch_3.png"
+    "img":"/img/watch_3.png"
   },
   {
     "name": "탱크",
     "item": "watch",
     "price": "₩2,750,000",
     "gender": "all",
-    "img":"./img/watch_4.png"
+    "img":"/img/watch_4.png"
   },
   {
     "name": "팬더 주얼리 워치",
     "item": "watch",
     "price": "₩2,500,000",
     "gender": "all",
-    "img":"./img/watch_5.png"
+    "img":"/img/watch_5.png"
   },
   {
     "name": "까르띠에 프리베",
     "item": "watch",
     "price": "₩5,000,000",
     "gender": "all",
-    "img":"./img/watch_6.png"
+    "img":"/img/watch_6.png"
   },
   {
     "name": "탱크",
     "item": "watch",
     "price": "₩8,000,000",
     "gender": "all",
-    "img":"./img/watch_7.png"
+    "img":"/img/watch_7.png"
   },
   {
     "name": "팬더 드 까르띠에 워치",
     "item": "watch",
     "price": "₩5,250,000",
     "gender": "female",
-    "img":"./img/watch_her_1.png"
+    "img":"/img/watch_her_1.png"
   },
   {
     "name": "RONDE MUST DE CARTIER",
     "item": "watch",
     "price": "₩3,430,000",
     "gender": "female",
-    "img":"./img/watch_her_2.png"
+    "img":"/img/watch_her_2.png"
   },
   {
     "name": "RONDE MUST DE CARTIER",
     "item": "watch",
     "price": "₩3,940,000",
     "gender": "female",
-    "img":"./img/watch_her_3.png"
+    "img":"/img/watch_her_3.png"
   },
   {
     "name": "산토스-뒤몽 워치",
     "item": "watch",
     "price": "₩3,940,000",
     "gender": "female",
-    "img":"./img/watch_her_4.png"
+    "img":"/img/watch_her_4.png"
   },
   {
     "name": "발롱 블루 드 까르띠에",
     "item": "watch",
     "price": "₩6,500,000",
     "gender": "female",
-    "img":"./img/watch_her_5.png"
+    "img":"/img/watch_her_5.png"
   },
   {
     "name": "발롱 블루 드 까르띠에",
     "item": "watch",
     "price": "₩7,400,000",
     "gender": "female",
-    "img":"./img/watch_her_6.png"
+    "img":"/img/watch_her_6.png"
   },
 
   {
@@ -96,202 +96,202 @@
     "item": "watch",
     "price": "₩6,500,000",
     "gender": "male",
-    "img":"./img/watch_her_7.png"
+    "img":"/img/watch_her_7.png"
   },
   {
     "name": "RDEON MUST DE CARTIER",
     "item": "watch",
     "price": "₩5,500,000",
     "gender": "male",
-    "img":"./img/watch_him_1.png"
+    "img":"/img/watch_him_1.png"
   },
   {
     "name": "산토스-뒤몽 워치",
     "item": "watch",
     "price": "₩7,800,000",
     "gender": "male",
-    "img":"./img/watch_him_2.png"
+    "img":"/img/watch_him_2.png"
   },
   {
     "name": "토스-뒤몽 워치",
     "item": "watch",
     "price": "₩6,500,000",
     "gender": "male",
-    "img":"./img/watch_him_3.png"
+    "img":"/img/watch_him_3.png"
   },
   {
     "name": "발롱 블루 드 까르띠에 워치",
     "item": "watch",
     "price": "₩8,500,000",
     "gender": "male",
-    "img":"./img/watch_him_4.png"
+    "img":"/img/watch_him_4.png"
   },
   {
     "name": "파샤 드 까르띠에 워치",
     "item": "watch",
     "price": "₩8,750,000",
     "gender": "male",
-    "img":"./img/watch_him_5.png"
+    "img":"/img/watch_him_5.png"
   },
   {
     "name": "RDEON MUST DE CARTIER",
     "item": "watch",
     "price": "₩6,500,000",
     "gender": "male",
-    "img":"./img/watch_him_6.png"
+    "img":"/img/watch_him_6.png"
   },
   {
     "name": "산토스 드 까르띠에",
     "item": "jewellery",
     "price": "₩7,500,000",
     "gender": "all",
-    "img":"./img/watch_him_7.png"
+    "img":"/img/watch_him_7.png"
   },
   {
     "name": "베누아",
     "item": "jewellery",
     "price": "₩1,500,000",
     "gender": "all",
-    "img":"./img/jewllery_1.png"
+    "img":"/img/jewllery_1.png"
   },
   {
     "name": "탱크",
     "item": "jewellery",
     "price": "₩1,500,000",
     "gender": "all",
-    "img":"./img/jewllery_2.png"
+    "img":"/img/jewllery_2.png"
   },
   {
     "name": "팬더 주얼리 워치",
     "item": "jewellery",
     "price": "₩3,500,000",
     "gender": "all",
-    "img":"./img/jewllery_3.png"
+    "img":"/img/jewllery_3.png"
   },
   {
     "name": "까르띠에 프리베",
     "item": "jewellery",
     "price": "₩2,500,000",
     "gender": "all",
-    "img":"./img/jewllery_4.png"
+    "img":"/img/jewllery_4.png"
   },
   {
     "name": "탱크",
     "item": "jewellery",
     "price": "₩1,500,000",
     "gender": "all",
-    "img":"./img/jewllery_5.png"
+    "img":"/img/jewllery_5.png"
   },
   {
     "name": "팬더 드 까르띠에 워치",
     "item": "jewellery",
     "price": "₩1,500,000",
     "gender": "female",
-    "img":"./img/jewllery_6.png"
+    "img":"/img/jewllery_6.png"
   },
   {
     "name": "RONDE MUST DE CARTIER",
     "item": "jewellery",
     "price": "₩1,500,000",
     "gender": "female",
-    "img":"./img/jewllery_7.png"
+    "img":"/img/jewllery_7.png"
   },
   {
     "name": "베누아",
     "item": "jewellery",
     "price": "₩1,500,000",
     "gender": "female",
-    "img":"./img/jewllery_.forher_1.png"
+    "img":"/img/jewllery_.forher_1.png"
   },
   {
     "name": "RONDE MUST DE CARTIER",
     "item": "jewellery",
     "price": "₩1,500,000",
     "gender": "female",
-    "img":"./img/jewllery_.forher_2.png"
+    "img":"/img/jewllery_.forher_2.png"
   },
   {
     "name": "산토스-뒤몽 워치",
     "item": "jewellery",
     "price": "₩1,500,000",
     "gender": "female",
-    "img":"./img/jewllery_.forher_3.png"
+    "img":"/img/jewllery_.forher_3.png"
   },
   {
     "name": "발롱 블루 드 까르띠에",
     "item": "jewellery",
     "price": "₩1,500,000",
     "gender": "female",
-    "img":"./img/jewllery_.forher_4.png"
+    "img":"/img/jewllery_.forher_4.png"
   },
   {
     "name": "RONDE MUST DE CARTIER",
     "item": "jewellery",
     "price": "₩6,500,000",
     "gender": "male",
-    "img":"./img/jewllery_.forher_5.png"
+    "img":"/img/jewllery_.forher_5.png"
   },
   {
     "name": "발롱 블루 드 까르띠에",
     "item": "jewellery",
     "price": "₩5,500,000",
     "gender": "male",
-    "img":"./img/jewllery_.forher_6.png"
+    "img":"/img/jewllery_.forher_6.png"
   },
   {
     "name": "산토스-뒤몽",
     "item": "jewellery",
     "price": "₩1,500,000",
     "gender": "male",
-    "img":"./img/jewllery_.forher_7.png"
+    "img":"/img/jewllery_.forher_7.png"
   },
   {
     "name": "발롱 블루 드 까르띠에",
     "item": "jewellery",
     "price": "₩8,500,000",
     "gender": "male",
-    "img":"./img/jewllery_.forhim_1.png"
+    "img":"/img/jewllery_.forhim_1.png"
   },
   {
     "name": "파샤 드 까르띠에",
     "item": "jewellery",
     "price": "₩8,750,000",
     "gender": "male",
-    "img":"./img/jewllery_.forhim_2.png"
+    "img":"/img/jewllery_.forhim_2.png"
   },
   {
     "name": "RONDE MUST DE CARTIER",
     "item": "jewellery",
     "price": "₩6,500,000",
     "gender": "male",
-    "img":"./img/jewllery_.forhim_3.png"
+    "img":"/img/jewllery_.forhim_3.png"
   },
   {
     "name": "RONDE MUST DE CARTIER",
     "item": "jewellery",
     "price": "₩6,500,000",
     "gender": "male",
-    "img":"./img/jewllery_.forhim_4.png"
+    "img":"/img/jewllery_.forhim_4.png"
   },
   {
     "name": "RONDE MUST DE CARTIER",
     "item": "jewellery",
     "price": "₩6,500,000",
     "gender": "male",
-    "img":"./img/jewllery_.forhim_5.png"
+    "img":"/img/jewllery_.forhim_5.png"
   },
   {
     "name": "RONDE MUST DE CARTIER",
     "item": "jewellery",
     "price": "₩6,500,000",
     "gender": "male",
-    "img":"./img/jewllery_.forhim_6.png"
+    "img":"/img/jewllery_.forhim_6.png"
   },
   {
     "name": "RONDE MUST DE CARTIER",
     "item": "jewellery",
     "price": "₩6,500,000",
     "gender": "male",
-    "img":"./img/jewllery_.forhim_7.png"
+    "img":"/img/jewllery_.forhim_7.png"
   }
 ]
